@@ -1,0 +1,8 @@
+inp_name = input('Please Enter your name, You Human:', )
+inp_age = input('Now your age?: ')
+rand_num = input('Also, mention any nummber between 1 & 10: ')
+to_100 = 100 - int(inp_age)
+print(("Hello", inp_name ,"!","You will turn 100 after", int(to_100) , "years") * int(rand_num))
+#Answer for Extra Question
+#for i in range(int(rand_num)):
+    print("Hello", inp_name ,"!","You will turn 100 after", to_100 , "years")
